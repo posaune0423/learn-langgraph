@@ -4,9 +4,6 @@
   "description": "Learn LangGraph",
   "main": "src/agent.ts",
   "type": "module",
-  "scripts": {
-    "dev": "tsx --env-file=.env src/agent.ts"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
