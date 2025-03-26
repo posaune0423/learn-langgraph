@@ -1,0 +1,23 @@
+{
+  "name": "learn-langgraph",
+  "version": "1.0.0",
+  "description": "Learn LangGraph",
+  "main": "src/agent.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file=.env src/agent.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "@langchain/community": "^0.3.37",
+    "@langchain/core": "^0.3.43",
+    "@langchain/langgraph": "^0.2.59",
+    "@langchain/openai": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13"
+  }
+}
